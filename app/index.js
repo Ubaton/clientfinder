@@ -1,6 +1,9 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text } from "react-native";
 import HomeScreen from "../components/home/HomeScreen";
+import ClientList from "../components/clients/ClientsList";
+
+import styles from "../constant/index.style";
 
 const Home = () => {
   return (
@@ -8,19 +11,11 @@ const Home = () => {
       <View style={styles.homeScreenContainer}>
         <HomeScreen />
       </View>
+      <View style={styles.clientListContainer}>
+        <ClientList />
+      </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  homeScreenContainer: {
-    marginTop: "-120%",
-  },
-});
 
 export default Home;

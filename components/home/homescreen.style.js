@@ -7,15 +7,29 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
   },
-  input: {
-    width: "250%",
+  searchContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 10,
+    width: 400,
+  },
+  searchButton: {
+    backgroundColor: "#007bff",
+    borderRadius: 25,
+    padding: 10,
+    marginRight: 10,
+  },
+  searchInput: {
+    flex: 1,
     height: 40,
     borderColor: "gray",
     borderWidth: 1,
-    marginBottom: 10,
     paddingHorizontal: 10,
     borderRadius: 25,
+    margin: 12,
+    padding: 10,
   },
+  input: {},
   button: {
     width: "200%",
     marginBottom: 10,

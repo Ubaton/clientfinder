@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { View, TextInput, Button, Text, StyleSheet } from "react-native";
+import {
+  View,
+  TextInput,
+  TouchableOpacity,
+  Text,
+  StyleSheet,
+} from "react-native";
+import Icon from "react-native-vector-icons/FontAwesome";
 import clientData from "../../Database/ClientData.json";
 
 import styles from "./homescreen.style";
@@ -19,21 +26,29 @@ const HomeScreen = () => {
   };
 
   return (
-    <View>
-      <TextInput
-        placeholder="Enter search text"
-        value={searchText}
-        onChangeText={setSearchText}
-      />
-      <Button title="Search" onPress={handleSearch} />
+    <View style={styles.container}>
+      <View style={styles.searchContainer}>
+        <TextInput
+          style={styles.searchInput}
+          placeholder="Enter search text"
+          value={searchText}
+          onChangeText={setSearchText}
+        />
+        <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
+          <Icon name="search" size={20} color="#ffffff" />
+        </TouchableOpacity>
+      </View>
 
       {searchResult.length > 0 && (
-        <View>
-          <Text>Search Result:</Text>
+        <View style={styles.cardContainer}>
+          <Text style={styles.cardTitle}>Search Result:</Text>
           {searchResult.map((client) => (
-            <Text key={client.id}>
-              {client.first_name} {client.last_name} - {client.email}
-            </Text>
+            <View style={styles.card} key={client.id}>
+              <Text>
+                {client.first_name} {client.last_name}
+              </Text>
+              <Text>{client.email}</Text>
+            </View>
           ))}
         </View>
       )}
