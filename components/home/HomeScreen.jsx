@@ -48,6 +48,8 @@ const HomeScreen = () => {
                 {client.first_name} {client.last_name}
               </Text>
               <Text>{client.email}</Text>
+              <Text>{client.phone_number}</Text>
+              <Text>{client.home_address}</Text>
             </View>
           ))}
         </View>

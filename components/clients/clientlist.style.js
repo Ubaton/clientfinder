@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: "#fff",
     padding: 10,
-    borderRadius: 10,
+    borderRadius: 25,
     marginVertical: 5,
     shadowColor: "#000",
     shadowOffset: {
@@ -17,8 +17,25 @@ const styles = StyleSheet.create({
       height: 2,
     },
     shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    shadowRadius: 1.84,
+    elevation: 2,
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+  },
+  dotContainer: {
+    marginRight: -335, // Move the dot to the left
+  },
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginLeft: -300,
+  },
+  nameText: {
+    fontSize: 24,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 
