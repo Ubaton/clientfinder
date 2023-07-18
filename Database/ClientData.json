@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "first_name": "Terrill",
+    "last_name": "Roset",
+    "email": "troset0@cbslocal.com",
+    "gender": "Male",
+    "ip_address": "188.101.0.196"
+  },
+  {
+    "id": 2,
+    "first_name": "Lenka",
+    "last_name": "Sheirlaw",
+    "email": "lsheirlaw1@themeforest.net",
+    "gender": "Female",
+    "ip_address": "187.110.160.230"
+  },
+  {
+    "id": 3,
+    "first_name": "Linette",
+    "last_name": "Urlin",
+    "email": "lurlin2@mysql.com",
+    "gender": "Female",
+    "ip_address": "31.147.10.55"
+  },
+  {
+    "id": 4,
+    "first_name": "Breanne",
+    "last_name": "Edens",
+    "email": "bedens3@4shared.com",
+    "gender": "Female",
+    "ip_address": "122.76.40.123"
+  },
+  {
+    "id": 5,
+    "first_name": "Murielle",
+    "last_name": "Abethell",
+    "email": "mabethell4@wisc.edu",
+    "gender": "Female",
+    "ip_address": "214.36.254.177"
+  },
+  {
+    "id": 6,
+    "first_name": "Marylee",
+    "last_name": "Smillie",
+    "email": "msmillie5@soup.io",
+    "gender": "Female",
+    "ip_address": "129.163.249.53"
+  },
+  {
+    "id": 7,
+    "first_name": "Claudius",
+    "last_name": "Truman",
+    "email": "ctruman6@vinaora.com",
+    "gender": "Agender",
+    "ip_address": "148.157.93.74"
+  },
+  {
+    "id": 8,
+    "first_name": "Erin",
+    "last_name": "Stutard",
+    "email": "estutard7@ed.gov",
+    "gender": "Female",
+    "ip_address": "25.249.232.166"
+  },
+  {
+    "id": 9,
+    "first_name": "Boigie",
+    "last_name": "Turton",
+    "email": "bturton8@smh.com.au",
+    "gender": "Male",
+    "ip_address": "82.67.3.190"
+  },
+  {
+    "id": 10,
+    "first_name": "Arron",
+    "last_name": "Pidgley",
+    "email": "apidgley9@youtu.be",
+    "gender": "Male",
+    "ip_address": "94.31.150.16"
+  },
+  {
+    "id": 11,
+    "first_name": "Maribel",
+    "last_name": "Ethelston",
+    "email": "methelstona@flavors.me",
+    "gender": "Female",
+    "ip_address": "14.106.23.27"
+  },
+  {
+    "id": 12,
+    "first_name": "Babette",
+    "last_name": "Gaine",
+    "email": "bgaineb@newyorker.com",
+    "gender": "Female",
+    "ip_address": "108.202.58.75"
+  },
+  {
+    "id": 13,
+    "first_name": "Patti",
+    "last_name": "Sedger",
+    "email": "psedgerc@dailymail.co.uk",
+    "gender": "Female",
+    "ip_address": "151.22.139.66"
+  },
+  {
+    "id": 14,
+    "first_name": "Zelma",
+    "last_name": "Dommersen",
+    "email": "zdommersend@wp.com",
+    "gender": "Non-binary",
+    "ip_address": "143.41.249.39"
+  },
+  {
+    "id": 15,
+    "first_name": "Edgardo",
+    "last_name": "Anfusso",
+    "email": "eanfussoe@com.com",
+    "gender": "Male",
+    "ip_address": "171.173.175.157"
+  },
+  {
+    "id": 16,
+    "first_name": "Beaufort",
+    "last_name": "Bickers",
+    "email": "bbickersf@webmd.com",
+    "gender": "Male",
+    "ip_address": "65.144.225.38"
+  },
+  {
+    "id": 17,
+    "first_name": "Devina",
+    "last_name": "Schurig",
+    "email": "dschurigg@ameblo.jp",
+    "gender": "Female",
+    "ip_address": "117.41.161.125"
+  },
+  {
+    "id": 18,
+    "first_name": "Cooper",
+    "last_name": "Smeeton",
+    "email": "csmeetonh@wikimedia.org",
+    "gender": "Male",
+    "ip_address": "14.77.209.75"
+  },
+  {
+    "id": 19,
+    "first_name": "Maje",
+    "last_name": "Alesbrook",
+    "email": "malesbrooki@cloudflare.com",
+    "gender": "Male",
+    "ip_address": "95.15.74.102"
+  },
+  {
+    "id": 20,
+    "first_name": "Bryan",
+    "last_name": "Barthot",
+    "email": "bbarthotj@imdb.com",
+    "gender": "Male",
+    "ip_address": "157.80.64.39"
+  }
+]
