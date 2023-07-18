@@ -34,6 +34,7 @@ const ClientList = () => {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.clientTitle}>Clients</Text>
       <FlatList
         data={clientsData}
         keyExtractor={(item) => item.id.toString()}

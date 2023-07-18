@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: "#fff",
-    padding: 10,
+    padding: 40,
+    paddingTop: 0,
     borderRadius: 25,
     marginVertical: 5,
     shadowColor: "#000",
@@ -24,18 +25,24 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   dotContainer: {
-    marginRight: -335, // Move the dot to the left
+    marginRight: -325, // Move the dot to the left
+    paddingTop: 25,
   },
   avatar: {
-    width: 50,
-    height: 50,
+    width: 30,
+    height: 30,
     borderRadius: 25,
     marginLeft: -300,
+    marginTop: -50,
+  },
+  clientTitle: {
+    fontSize: 25,
+    fontWeight: "bold",
+    marginBottom: 10,
   },
   nameText: {
     fontSize: 24,
-    justifyContent: "center",
-    alignItems: "center",
+    marginTop: -2,
   },
 });
 

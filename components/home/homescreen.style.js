@@ -16,20 +16,19 @@ const styles = StyleSheet.create({
   searchButton: {
     backgroundColor: "#007bff",
     borderRadius: 25,
-    padding: 10,
+    padding: 20,
     marginRight: 10,
   },
   searchInput: {
     flex: 1,
-    height: 40,
+    height: 60,
     borderColor: "gray",
     borderWidth: 1,
-    paddingHorizontal: 10,
+    paddingHorizontal: 30,
     borderRadius: 25,
     margin: 12,
-    padding: 10,
+    padding: 12,
   },
-  input: {},
   button: {
     width: "200%",
     marginBottom: 10,
@@ -52,7 +51,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 10,
     marginBottom: 10,
-    width: "80%",
+    width: "120%",
   },
   cardTitle: {
     fontSize: 18,
