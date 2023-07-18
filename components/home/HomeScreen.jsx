@@ -16,12 +16,15 @@ const HomeScreen = () => {
   const [searchResult, setSearchResult] = useState([]);
 
   const handleSearch = () => {
-    const filteredClients = clientData.filter(
-      (client) =>
-        client.first_name.includes(searchText) ||
-        client.last_name.includes(searchText) ||
-        client.email.includes(searchText)
-    );
+    if (searchText.trim() === "") {
+      setSearchResult([]);
+      return;
+    }
+
+    const filteredClients = clientData.filter((client) => {
+      const clientName = `${client.first_name} ${client.last_name}`;
+      return clientName.toLowerCase().includes(searchText.toLowerCase());
+    });
     setSearchResult(filteredClients);
   };
 

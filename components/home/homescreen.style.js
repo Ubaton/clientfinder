@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   cardContainer: {
+    flex: 1,
     marginTop: 20,
     alignItems: "center",
   },

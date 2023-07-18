@@ -3,13 +3,12 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    backgroundColor: "#0000",
+    marginTop: -150,
   },
   card: {
     backgroundColor: "#fff",
-    padding: 40,
-    paddingTop: 0,
+    padding: 10,
     borderRadius: 25,
     marginVertical: 5,
     shadowColor: "#000",
@@ -20,29 +19,36 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 1.84,
     elevation: 2,
+  },
+  contentContainer: {
     flexDirection: "row",
     alignItems: "center",
-    width: "100%",
   },
   dotContainer: {
-    marginRight: -325, // Move the dot to the left
-    paddingTop: 25,
+    marginLeft: 338,
+  },
+  avatarContainer: {
+    width: 60,
+    height: 60,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: -335,
   },
   avatar: {
-    width: 30,
-    height: 30,
-    borderRadius: 25,
-    marginLeft: -300,
-    marginTop: -50,
-  },
-  clientTitle: {
-    fontSize: 25,
-    fontWeight: "bold",
-    marginBottom: 10,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    marginRight: 700,
   },
   nameText: {
+    fontSize: 20,
+    textAlign: "center",
+  },
+  clientTitle: {
     fontSize: 24,
-    marginTop: -2,
+    fontWeight: "bold",
+    marginBottom: 10,
+    textAlign: "center",
   },
 });
 
