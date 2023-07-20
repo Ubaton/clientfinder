@@ -12,11 +12,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 10,
     width: 400,
+    paddingTop: 50,
   },
   searchButton: {
     backgroundColor: "#007bff",
     borderRadius: 25,
-    padding: 20,
+    padding: 14,
     marginRight: 10,
   },
   searchInput: {
@@ -28,6 +29,23 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     margin: 12,
     padding: 12,
+    fontSize: 20,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  avatarContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    paddingTop: 20,
+    marginTop: -80,
+  },
+  avatar: {
+    width: 120,
+    height: 120,
+    borderRadius: 50,
+    marginTop: 0,
   },
   button: {
     width: "200%",
@@ -49,13 +67,13 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: "#ffffff",
-    borderRadius: 10,
+    borderRadius: 15,
     padding: 10,
     marginBottom: 10,
-    width: "120%",
+    width: 380,
   },
   cardTitle: {
-    fontSize: 18,
+    fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
   },

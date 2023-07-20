@@ -5,6 +5,8 @@ import {
   TouchableOpacity,
   Text,
   StyleSheet,
+  Image,
+  SafeAreaView,
 } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 import clientData from "../../Database/ClientData.json";
@@ -29,17 +31,27 @@ const HomeScreen = () => {
   };
 
   return (
-    <View style={styles.container}>
-      <View style={styles.searchContainer}>
-        <TextInput
-          style={styles.searchInput}
-          placeholder="Enter search text"
-          value={searchText}
-          onChangeText={setSearchText}
+    <SafeAreaView style={styles.container}>
+      <View style={styles.avatarContainer}>
+        <Image
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/6uob6mpb9yx-13%3A41?alt=media&token=0bb78339-b179-4177-9936-404762896aac",
+          }}
+          style={styles.avatar}
         />
-        <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
-          <Icon name="search" size={20} color="#ffffff" />
-        </TouchableOpacity>
+      </View>
+      <View style={styles.searchContainer}>
+        <View style={styles.inputContainer}>
+          <TextInput
+            style={styles.searchInput}
+            placeholder="Search Client"
+            value={searchText}
+            onChangeText={setSearchText}
+          />
+          <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
+            <Icon name="search" size={30} color="#ffffff" />
+          </TouchableOpacity>
+        </View>
       </View>
 
       {searchResult.length > 0 && (
@@ -48,16 +60,16 @@ const HomeScreen = () => {
           {searchResult.map((client) => (
             <View style={styles.card} key={client.id}>
               <Text>
-                {client.first_name} {client.last_name}
+                Name: {client.first_name} {client.last_name}
               </Text>
-              <Text>{client.email}</Text>
-              <Text>{client.phone_number}</Text>
-              <Text>{client.home_address}</Text>
+              <Text>Email: {client.email}</Text>
+              <Text>Phone: {client.phone_number}</Text>
+              <Text>Home Address: {client.home_address}</Text>
             </View>
           ))}
         </View>
       )}
-    </View>
+    </SafeAreaView>
   );
 };
 

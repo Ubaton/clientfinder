@@ -4,11 +4,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#0000",
-    marginTop: -150,
+    marginTop: -100,
   },
   card: {
     backgroundColor: "#fff",
     padding: 10,
+    height: 80,
     borderRadius: 25,
     marginVertical: 5,
     shadowColor: "#000",
@@ -24,21 +25,25 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
   },
+  CommunicationComment: {
+    width: 24,
+    height: 24,
+  },
   dotContainer: {
-    marginLeft: 338,
+    marginLeft: 320,
   },
   avatarContainer: {
     width: 60,
     height: 60,
     justifyContent: "center",
     alignItems: "center",
-    marginRight: -335,
+    marginRight: -320,
   },
   avatar: {
     width: 60,
     height: 60,
     borderRadius: 30,
-    marginRight: 700,
+    marginRight: 680,
   },
   nameText: {
     fontSize: 20,
